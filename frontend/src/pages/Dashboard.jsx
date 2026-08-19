@@ -71,7 +71,7 @@ const fetchStats=async()=>{
                     {/* AI Statistics */}
 
 
-<div className="grid grid-cols-3 gap-6 mt-8">
+{/* <div className="grid grid-cols-3 gap-6 mt-8">
 
 
 <div className="bg-white rounded-xl shadow-lg p-6">
@@ -131,7 +131,7 @@ stats?.reusable || 0
 
 
 
-</div>
+</div> */}
 
 
                    

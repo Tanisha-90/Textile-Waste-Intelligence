@@ -235,9 +235,9 @@ function AiClassification(){
       </div>
 
       <div className="bg-slate-50 rounded-xl p-4">
-        <p className="text-sm text-gray-500">
+        {/* <p className="text-sm text-gray-500">
           Recognition Method
-        </p>
+        </p> */}
 
         <h3 className="font-semibold text-slate-800">
     Computer Vision Based Classification

@@ -24,6 +24,9 @@ router = APIRouter(
 def get_notifications(
     db: Session = Depends(get_db)
 ):
+    # Generate new notifications automatically
+    generate_notifications(db)
+
 
     return (
         db.query(Notification)
