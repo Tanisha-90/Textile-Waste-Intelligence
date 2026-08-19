@@ -545,7 +545,7 @@ async def generate_report_excel(data: dict):
                 detail="Report data missing"
             )
 
-        # file_path = generate_excel(report)
+        file_path = generate_excel(report)
 
         return FileResponse(
             path=file_path,
