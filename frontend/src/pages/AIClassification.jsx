@@ -240,8 +240,8 @@ function AiClassification(){
         </p>
 
         <h3 className="font-semibold text-slate-800">
-          Zero-Shot Vision Classification
-        </h3>
+    Computer Vision Based Classification
+</h3>
       </div>
 
     </div>

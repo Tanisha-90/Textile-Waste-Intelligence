@@ -459,7 +459,7 @@ async def upload_image(
         "ai_fabric_prediction": {
             "fabric": fabric_prediction["fabric"],
             "confidence": fabric_prediction["confidence"],
-            "model": "OpenAI CLIP (ViT-B/32)"
+            "model": "Computer Vision Fabric Classifier"
         },
         "fabric_detection":fabric,
         "material":material,
@@ -545,7 +545,7 @@ async def generate_report_excel(data: dict):
                 detail="Report data missing"
             )
 
-        file_path = generate_excel(report)
+        # file_path = generate_excel(report)
 
         return FileResponse(
             path=file_path,
